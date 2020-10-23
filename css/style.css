@@ -252,7 +252,7 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
-@media reduced-motion {
+@media (prefers-reduced-motion: reduce) {
   #logo{
     animation: none;
  }
